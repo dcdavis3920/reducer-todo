@@ -17,7 +17,7 @@ const TodoForm = (props) => {
         onChange={(e) => setForm(e.target.value)}
       />
 
-      <button type="submit">Add</button>
+      <button type="submit">Add Todo</button>
     </form>
   );
 };
